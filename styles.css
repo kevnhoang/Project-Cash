@@ -85,7 +85,7 @@
   }
 
 
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
     background-color: #1F2937;
     overflow: hidden;
@@ -138,6 +138,10 @@
     border: 2px solid darkgreen;
     border-radius: 12px;
     padding: 5px;
+  }
+
+  #specialties div:hover {
+    background-color: darkgreen;
   }
 
 
