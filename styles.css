@@ -10,6 +10,14 @@
   } 
 
 /* Header flexbox */
+.logo {
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+  }
+
 .header-flex-container div {
     flex: 1 1 0%;
 }
@@ -23,12 +31,13 @@
     color: #E5E7EB;
 }
 
-h1 {
+.header-flex-container h1 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
 }
 
+/* See more gallery button */
 .button {
     display: inline-block;
     border-radius: 4px;
